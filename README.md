@@ -2,6 +2,8 @@ A collection of personal weapons, armor, and more that I've made for my own use.
 
 Requires Tactical Gear Component by MoxoPixel ( https://hub.sp-tarkov.com/files/file/1555-tactical-gear-component/ ) as I'm not an artist and really like the look of that mods items.
 
+Code that handels item adding from the json files is from the Welcome to Tarkov series of mods as it does a great job handling item adding and lets me focus on the stats and tweaks that I'm making
+
 All items should be for sale at Peacekeeper lvl 1 the prices are intended to be rather high in an attempt to balance them at least a little bit.
 
 Highlights of the mod:
