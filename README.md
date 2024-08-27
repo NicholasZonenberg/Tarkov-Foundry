@@ -1,4 +1,4 @@
-A collection of personal weapons, armor, and more that I've made for my own use.  In no way shape or form balanced in fact most likely rather overtly OP.
+A collection of personal weapons, armor, and more that I've tweaked / adjusted for my own use.  In no way shape or form balanced in fact most likely rather overtly OP.
 
 Requires Tactical Gear Component by MoxoPixel ( https://hub.sp-tarkov.com/files/file/1555-tactical-gear-component/ ) as I'm not an artist and really like the look of that mods items.
 
