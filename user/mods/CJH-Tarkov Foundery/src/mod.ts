@@ -100,7 +100,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
-            `[${this.modName}] Developers:    test  Code Framework: GroovypenguinX`,
+            `[${this.modName}] Developers: CaptinJoeHenry    Code Framework: GroovypenguinX`,
             LogTextColor.GREEN
         );
         this.Instance.logger.log(
