@@ -1169,7 +1169,9 @@
 				"ParietalHead",
 				"Eyes",
 				"Jaw",
-				"Ears"
+				"Ears",
+				"NeckFront",
+				"NeckBack"
 			],
 			"BackgroundColor": "yellow",
 			"armorClass": "4",
