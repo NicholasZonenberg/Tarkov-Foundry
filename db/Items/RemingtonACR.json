@@ -1,0 +1,1208 @@
+{
+	"CJH_gungnir": {
+		"itemTplToClone": "5fc22d7c187fea44d52eda44",
+		"parentId": "5447b6194bdc2d67278b4567",
+		"handbookParentId": "5b5f791486f774093f2ed3be",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/weapons/mk18/weapon_sword_int_mk_18_mjolnir_86x70_container.bundle",
+				"rcid": ""
+			},
+			"BackgroundColor": "red",
+            "weapFireType": [
+                "single",
+                "fullauto"
+            ],
+            "SingleFireRate": 360,
+            "bFirerate": 360,
+			"Chambers": [
+				{
+					"_name": "patron_in_weapon",
+					"_id": "5fc22d7c187fea44d52eda4b",
+					"_parent": "5fc22d7c187fea44d52eda44",
+					"_props": {
+						"filters": [
+							{
+								"Filter": [
+									"5fc382a9d724d907e2077dab",
+									"5fc275cf85fd526b824a571a",
+									"5fc382c1016cce60e8341b20",
+									"5fc382b6d6fa9c00c571bbc3",
+									"d8964681fe70a7157ce5153c"
+								]
+							}
+						]
+					},
+					"_required": false,
+					"_mergeSlotWithChildren": false,
+					"_proto": "55d4af244bdc2d962f8b4571"
+				}
+			],
+			"RecoilCategoryMultiplierHandRotation": 0.207,
+			"RecoilReturnSpeedHandRotation": 5.5,
+			"RecoilDampingHandRotation": 0.61,
+			"RecoilCamera": 0.0,
+			"RecoilStableIndexShot": 5,
+            "RecoilForceUp": 20,
+            "RecoilForceBack": 70,
+			"RecolDispersion": 10,
+			"RecoilPosZMult": 1,
+			"RecoilReturnPathDampingHandRotation": 0.32,
+			"RecoilReturnPathOffsetHandRotation": 0.01,
+			"RecoilAngle": 90,
+			"RecoilStableAngleIncreaseStep": 2.4,
+			"ShotsGroupSettings": [
+				{
+					"StartShotIndex": 2,
+					"EndShotIndex": 99,
+					"ShotRecoilRotationStrength": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ShotRecoilPositionStrength": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					},
+					"ShotRecoilRadianRange": {
+						"x": 6,
+						"y": -6,
+						"z": 0
+					}
+				}
+			],
+			"ProgressRecoilAngleOnStable": {
+				"x": 0,
+				"y": 28,
+				"z": 0
+			},
+			"RecoilCenter":{
+				"x": 0,
+				"y": -0.24,
+				"z": 0
+			},
+			"PostRecoilVerticalRangeHandRotation": {
+				"x": -1.5,
+				"y": 0,
+				"z": 0
+			},
+			"PostRecoilHorizontalRangeHandRotation": {
+				"x": -1.5,
+				"y": 1.5,
+				"z": 0
+			},
+            "HeatFactorGun": 0.5,
+            "CoolFactorGun": 12.0,
+            "HeatFactorByShot": 2.1,
+            "Velocity": 16,
+            "BoltAction": false,
+            "CanQueueSecondShot": true,
+            "OperatingResource": 75000,
+            "bHearDist": 80,
+            "Ergonomics": 90,
+			"shotgunDispersion": 1,
+			"ShotgunDispersion": 1
+		},
+		"locales": {
+			"en": {
+				"name": "Mk-18 Gungnir .338 LM marksman rifle",
+				"shortName": "Gungnir",
+				"description": "A Ukrainian modified Mk-18 Mjonlnir adjusted to fire special triplex rounds and allowing full auto functionality customized and highly tuned under the leadership of Sasha Himik for the needs of Ukrainian law enforcement agencies. Designed by Sasha Himik on Kiev Polytechnic Institute."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 107756,
+		"handbookPriceRoubles": 75456,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 674,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250,
+		"addweaponpreset": true,
+		"weaponpresets": [
+			{
+				"_changeWeaponName": false,
+				"_encyclopedia": "acr",
+				"_id": "acr_def_preset",
+				"_items": [
+					{
+						"_id": "6620bd1a645564d1dc4cc960",
+						"_tpl": "acr"
+					},
+					{
+						"_id": "6620a070f60bcdbddd6cac63",
+						"_tpl": "5aaa5dfee5b5b000140293d3",
+						"parentId": "6620bd1a645564d1dc4cc960",
+						"slotId": "mod_magazine"
+					},
+					{
+						"_id": "6201abb9f11df1aa90cc9c4e",
+						"_tpl": "acrupperreceiver",
+						"parentId": "6620bd1a645564d1dc4cc960",
+						"slotId": "mod_reciever"
+					},
+					{
+						"_id": "d512f11deaa01dadb71bd238",
+						"_tpl": "acrhandguardmagpul",
+						"parentId": "6620bd1a645564d1dc4cc960",
+						"slotId": "mod_handguard"
+					},
+					{
+						"_id": "106292c90837b7c306cdafdc",
+						"_tpl": "acrbarrelmedium",
+						"parentId": "6620bd1a645564d1dc4cc960",
+						"slotId": "mod_barrel"
+					},
+					{
+						"_id": "f0e6c9aa9030f1cb48143d9f",
+						"_tpl": "acrstockmagpul",
+						"parentId": "6620bd1a645564d1dc4cc960",
+						"slotId": "mod_stock"
+					},
+					{
+						"_id": "91e7cfbb4fe133b7666a0c48",
+						"_tpl": "5bc09a18d4351e003562b68e",
+						"parentId": "6201abb9f11df1aa90cc9c4e",
+						"slotId": "mod_sight_rear"
+					},
+					{
+						"_id": "84de5389847fe7785e65aea7",
+						"_tpl": "5bc09a30d4351e00367fb7c8",
+						"parentId": "6201abb9f11df1aa90cc9c4e",
+						"slotId": "mod_sight_front"
+					},
+					{
+						"_id": "a5ee8c74a60d61dd8e2710e7",
+						"_tpl": "5ea172e498dacb342978818e",
+						"parentId": "106292c90837b7c306cdafdc",
+						"slotId": "mod_muzzle"
+					}
+				],
+				"_name": "Magpul Carbine",
+				"_parent": "6620bd1a645564d1dc4cc960",
+				"_type": "Preset"
+			}
+		],
+		"masteries": true,
+		"masterySections": [
+			{
+				"Name": "Gungnir",
+				"Templates": [
+					"gungnir"
+				],
+				"Level2": 100,
+				"Level3": 200
+			}
+		]
+	},
+	"87a844d8dcff45df3d45f945":{
+		"itemTplToClone": "5fc23678ab884124df0cd590",
+		"parentId": "555ef6e44bdc2de9068b457e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/barrels/barrel_mk18_610mm_86x70.bundle",
+				"rcid": ""
+			},
+			"ShotgunDispersion": 0.065
+		},
+		"locales": {
+			"en": {
+				"name": "Mk-18 Gungnir .338 LM Triplex 24 inch barrel",
+				"shortName": "Gngr Tri 24",
+				"description": "A 24 inch (610mm) barrel for Mk-18 .338 LM sniper rifle, optimized for triplex rounds pattern."
+			}
+		},
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_barrel"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 87000,
+		"handbookPriceRoubles": 59960,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 130,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"b048fced1ac03dded2304910":{
+		"itemTplToClone": "5fc23426900b1d5091531e15",
+		"parentId": "5448bc234bdc2d3c308b4569",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/mods/magazines/mag_mk18_sword_mjolnir_std_86x70_10.bundle",
+				"rcid": ""
+			},
+			"Cartridges":[
+				{
+					"_name": "cartridges",
+					"_id": "d8fc18d7d59755d4385e4d11",
+					"_parent": "b048fced1ac03dded2304910",
+					"_max_count": 50,
+					"_props":{
+						"filters":[
+							{
+								"Filter":[
+									"5fc382a9d724d907e2077dab",
+									"5fc275cf85fd526b824a571a",
+									"5fc382c1016cce60e8341b20",
+									"5fc382b6d6fa9c00c571bbc3",
+									"d8964681fe70a7157ce5153c"
+								]
+							}
+						]
+					},
+					"_proto":"5748538b2459770af276a261"
+				}
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "Gngr .338 LM 50-round magazine",
+				"shortName": "Gngr 50",
+				"description": "A 50 round magazine for the Gungnir DMR intended for use with triplex rounds."
+			}
+		},
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_magazine"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 87000,
+		"handbookPriceRoubles": 59960,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 100,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtoStaticLootContainers": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	},
+	"d8964681fe70a7157ce5153c":{
+		"itemTplToClone": "5fc382a9d724d907e2077dab",
+		"parentId": "5485a8684bdc2da71d8b4567",
+		"handbookParentId": "5b47574386f77428ca22b33b",
+		"overrideProperties": {			
+			"Prefab": {
+				"path": "assets/content/items/ammo/patrons/patron_86x70_lapua_ap.bundle",
+				"rcid": ""
+			},
+			"buckshotBullets": 3,
+			"Caliber": "Caliber86x70"
+		},
+		"locales": {
+			"en": {
+				"name": ".338 Lapua Magnum Triplex AP",
+				"shortName": "Tri AP",
+				"description": "A .338 Lapua Magnum (8.6x70mm) AP cartridge with a triplex load of two-part armor-piercing projectile, the bullet consists of a tripple stack of sabot and a tungsten carbide penetrator body, in a brass case. This cartridge was designed to further enhance the hit probability by firing 3 bullets with a single trigger pull. However, due to its design, it has a significant probability of bouncing off various surfaces."
+			}
+		},
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_muzzle"
+		],
+		"fleaPriceRoubles": 7250,
+		"handbookPriceRoubles": 4750,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99999
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 24,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest": {
+		"itemTplToClone": "60a3c68c37ea821725773ef5",
+		"parentId": "5448e5284bdc2dcb718b4567",
+		"overrideProperties": {
+			"Width": 4,
+              "Height": 4,
+              "Prefab": {
+                "path": "assaultvest2_v2_blk.bundle",
+                "rcid": ""
+              },
+              "CanSellOnRagfair": false,
+              "CanRequireOnRagfair": false,
+              "Slots": [
+                {
+                  "_name": "Front_plate",
+                  "_id": "CJH_vest_front_plate",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "656fa53d94b480b8a500c0e4",
+                        "Filter": [
+                          "656f9d5900d62bcd2e02407c",
+                          "656fa8d700d62bcd2e024084",
+                          "656fa99800d62bcd2e024088",
+                          "656fae5f7c2d57afe200c0d7",
+                          "656faf0ca0dce000a2020f77",
+                          "656fa0fb498d1b7e3e071d9c",
+                          "656fafe3498d1b7e3e071da4",
+                          "656fa76500d62bcd2e024080",
+                          "656fad8c498d1b7e3e071da0",
+                          "656fa25e94b480b8a500c0e0",
+                          "656fa61e94b480b8a500c0e8",
+                          "656fb21fa0dce000a2020f7c",
+                          "656fac30c6baea13cd07e10c",
+                          "656fb0bd7c2d57afe200c0dc",
+                          "656f9fa0498d1b7e3e071d98",
+                          "656fa53d94b480b8a500c0e4",
+                          "65573fa5655447403702a816",
+                          "64afc71497cf3a403c01ff38",
+                          "655746010177119f4a097ff7",
+                          "64afdcb83efdfea28601d041",
+						  "58c0a16f420c97fe1c3d2e27",
+						  "CJH_foundery_plate_full"
+                        ],
+                        "armorColliders": [],
+                        "armorPlateColliders": [
+                          "Plate_Granit_SAPI_chest"
+                        ],
+                        "bluntDamageReduceFromSoftArmor": true
+                      }
+                    ]
+                  },
+                  "_required": false,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Back_plate",
+                  "_id": "CJH_vest_back_plate",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "656fa53d94b480b8a500c0e4",
+                        "Filter": [
+                          "656f9d5900d62bcd2e02407c",
+                          "656fa8d700d62bcd2e024084",
+                          "656fa99800d62bcd2e024088",
+                          "656fae5f7c2d57afe200c0d7",
+                          "656faf0ca0dce000a2020f77",
+                          "656fa0fb498d1b7e3e071d9c",
+                          "656fafe3498d1b7e3e071da4",
+                          "656fa76500d62bcd2e024080",
+                          "656fa25e94b480b8a500c0e0",
+                          "656fa61e94b480b8a500c0e8",
+                          "656fad8c498d1b7e3e071da0",
+                          "656fb21fa0dce000a2020f7c",
+                          "656fac30c6baea13cd07e10c",
+                          "656fb0bd7c2d57afe200c0dc",
+                          "656f9fa0498d1b7e3e071d98",
+                          "656fa53d94b480b8a500c0e4",
+                          "65573fa5655447403702a816",
+                          "64afc71497cf3a403c01ff38",
+                          "655746010177119f4a097ff7",
+                          "64afdcb83efdfea28601d041",
+						  "58c0a16f420c97fe1c3d2e27",
+						  "CJH_foundery_plate_full"
+                        ],
+                        "armorColliders": [],
+                        "armorPlateColliders": [
+                          "Plate_Granit_SAPI_back"
+                        ],
+                        "bluntDamageReduceFromSoftArmor": true
+                      }
+                    ]
+                  },
+                  "_required": false,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Left_side_plate",
+                  "_id": "CJH_vest_left_side_plate",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "6557458f83942d705f0c4962",
+                        "Filter": [
+                          "6557458f83942d705f0c4962",
+                          "64afdb577bb3bfe8fe03fd1d",
+                          "64afd81707e2cf40e903a316",
+						  "CJH_foundery_plate_side"
+                        ],
+                        "armorColliders": [],
+                        "armorPlateColliders": [
+                          "Plate_Granit_SSAPI_side_left_high"
+                        ],
+                        "bluntDamageReduceFromSoftArmor": true
+                      }
+                    ]
+                  },
+                  "_required": false,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Right_side_plate",
+                  "_id": "CJH_vest_right_side_plate",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "6557458f83942d705f0c4962",
+                        "Filter": [
+                          "6557458f83942d705f0c4962",
+                          "64afdb577bb3bfe8fe03fd1d",
+                          "64afd81707e2cf40e903a316",
+						  "CJH_foundery_plate_side"
+                        ],
+                        "armorColliders": [],
+                        "armorPlateColliders": [
+                          "Plate_Granit_SSAPI_side_right_high"
+                        ],
+                        "bluntDamageReduceFromSoftArmor": true
+                      }
+                    ]
+                  },
+                  "_required": false,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Soft_armor_front",
+                  "_id": "CJH_vest_soft_armor_front",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_front_soft",
+                        "Filter": [
+                          "CJH_vest_front_soft"
+                        ],
+                        "armorColliders": [
+                          "RibcageUp",
+                          "RibcageLow"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Soft_armor_back",
+                  "_id": "CJH_vest_soft_armor_back",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_back_soft",
+                        "Filter": [
+                          "CJH_vest_back_soft"
+                        ],
+                        "armorColliders": [
+                          "SpineTop",
+                          "SpineDown"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Soft_armor_left",
+                  "_id": "CJH_vest_soft_armor_left",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_left_side_soft",
+                        "Filter": [
+                          "CJH_vest_left_side_soft"
+                        ],
+                        "armorColliders": [
+                          "LeftSideChestDown"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "soft_armor_right",
+                  "_id": "CJH_vest_soft_armor_right",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_right_side_soft",
+                        "Filter": [
+                          "CJH_vest_right_side_soft"
+                        ],
+                        "armorColliders": [
+                          "RightSideChestDown"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Collar",
+                  "_id": "CJH_vest_collar",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_collar_soft",
+                        "Filter": [
+                          "CJH_vest_collar_soft"
+                        ],
+                        "armorColliders": [
+                          "NeckFront",
+                          "NeckBack"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Shoulder_l",
+                  "_id": "CJH_vest_shoulder_l",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_shoulder_left_soft",
+                        "Filter": [
+                          "CJH_vest_shoulder_left_soft"
+                        ],
+                        "armorColliders": [
+                          "LeftUpperArm"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Shoulder_r",
+                  "_id": "CJH_vest_shoulder_r",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_shoulder_right_soft",
+                        "Filter": [
+                          "CJH_vest_shoulder_right_soft"
+                        ],
+                        "armorColliders": [
+                          "RightUpperArm"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                },
+                {
+                  "_name": "Groin",
+                  "_id": "CJH_vest_groin",
+                  "_parent": "CJH_vest",
+                  "_props": {
+                    "filters": [
+                      {
+                        "locked": false,
+                        "Plate": "CJH_vest_groin_soft",
+                        "Filter": [
+                          "CJH_vest_groin_soft"
+                        ],
+                        "armorColliders": [
+                          "Pelvis"
+                        ],
+                        "armorPlateColliders": [],
+                        "bluntDamageReduceFromSoftArmor": false
+                      }
+                    ]
+                  },
+                  "_required": true,
+                  "_mergeSlotWithChildren": true,
+                  "_proto": "64479fdf9731c8fadc0642c1"
+                }
+              ]
+		},
+		"locales": {
+			"en": {
+				"name": "Foundery Armored Chest Rig",
+				"shortName": "Foundery Rig",
+				"description": "An advanced armored rig combinding both a light weight build and high end soft armor over the most shot areas.  Another product of the mysterious Tarkov Foundery."
+			}
+		},
+		"fleaPriceRoubles": 107756,
+		"handbookPriceRoubles": 75456,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 674,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_front_soft": {
+		"itemTplToClone": "65733312ca0ca984940a2d53",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_front.bundle",
+				"rcid": ""
+			},
+			"Durability": 75,
+			"MaxDurability": 75,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert Front",
+				"shortName": "SA Front",
+				"description": "Soft armor insert for the front of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 15000,
+		"handbookPriceRoubles": 13300,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 95,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_back_soft": {
+		"itemTplToClone": "657333232cc8dfad2c0a3d97",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_back.bundle",
+				"rcid": ""
+			},
+			"Durability": 75,
+			"MaxDurability": 75,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - Back",
+				"shortName": "SA Back",
+				"description": "Soft armor insert for the back of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 15000,
+		"handbookPriceRoubles": 13300,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 95,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_left_side_soft": {
+		"itemTplToClone": "657333302cc8dfad2c0a3d9b",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_left.bundle",
+				"rcid": ""
+			},
+			"Durability": 28,
+			"MaxDurability": 28,
+			"armorClass": "3"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - left side",
+				"shortName": "SA left side",
+				"description": "Soft armor insert for the left side of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 7500,
+		"handbookPriceRoubles": 6000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 40,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_right_side_soft": {
+		"itemTplToClone": "6573333eca0ca984940a2d57",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/soft_armor_right.bundle",
+				"rcid": ""
+			},
+			"Durability": 28,
+			"MaxDurability": 28,
+			"armorClass": "3"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - right side",
+				"shortName": "SA right side",
+				"description": "Soft armor insert for the right side of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 7500,
+		"handbookPriceRoubles": 6000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 40,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_collar_soft": {
+		"itemTplToClone": "6573334aca0ca984940a2d5b",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/collar.bundle",
+				"rcid": ""
+			},
+			"Durability": 22,
+			"MaxDurability": 22,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - collar",
+				"shortName": "SA collar",
+				"description": "Soft armor insert for the collar of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 8500,
+		"handbookPriceRoubles": 6500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_shoulder_left_soft": {
+		"itemTplToClone": "65733375b7a8d286530e3dd7",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/shoulder_l.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - shoulder left",
+				"shortName": "SA shoulder left",
+				"description": "Soft armor insert for the shoulder left of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 10000,
+		"handbookPriceRoubles": 7500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 50,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_shoulder_right_soft": {
+		"itemTplToClone": "6573337f2cc8dfad2c0a3da7",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/shoulder_r.bundle",
+				"rcid": ""
+			},
+			"Durability": 30,
+			"MaxDurability": 30,
+			"armorClass": "4"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - shoulder right",
+				"shortName": "SA shoulder right",
+				"description": "Soft armor insert for the shoulder right of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 10000,
+		"handbookPriceRoubles": 7500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 50,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_vest_groin_soft": {
+		"itemTplToClone": "6575ce8bdc9932aed601c61e",
+		"parentId": "65649eb40bf0ed77b8044453",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/armor_plates/groin.bundle",
+				"rcid": ""
+			},
+			"Durability": 40,
+			"MaxDurability": 40,
+			"armorClass": "3"
+		},
+		"locales": {
+			"en": {
+				"name": "Replacable Soft Armor Insert - groin",
+				"shortName": "SA groin",
+				"description": "Soft armor insert for the groin of the Foundery Armor Vest"
+			}
+		},
+		"fleaPriceRoubles": 8500,
+		"handbookPriceRoubles": 6500,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 45,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_foundery_plate_full": {
+		"itemTplToClone": "656faf0ca0dce000a2020f77",
+		"parentId": "644120aa86ffbe10ee032b6f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+				"rcid": ""
+			},			
+			"Durability": 65,
+			"MaxDurability": 65,
+			"armorClass": "6",
+			"Weight": 1.1
+		},
+		"locales": {
+			"en": {
+				"name": "Foundery Full Plate",
+				"shortName": "Foundery FP",
+				"description": "Light weight but extremely durable UHMWPE armor plates.  A near ideal armor plate combinding both excellent protection and low weight.  Another product of the mysterious Tarkov Foundery."
+			}
+		},
+		"fleaPriceRoubles": 100000,
+		"handbookPriceRoubles": 90000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 640,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_foundery_plate_side": {
+		"itemTplToClone": "64afdb577bb3bfe8fe03fd1d",
+		"parentId": "644120aa86ffbe10ee032b6f",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "assets/content/items/equipment/plate_esbi/item_equipment_plate_esbi_new.bundle",
+				"rcid": ""
+			},			
+			"Durability": 25,
+			"MaxDurability": 25,
+			"armorClass": "6",
+			"Weight": 0.75,
+			"ArmorMaterial": "UHMWPE"
+		},
+		"locales": {
+			"en": {
+				"name": "Foundery Side Plate",
+				"shortName": "Foundery SP",
+				"description": "Light weight but extremely durable UHMWPE side armor plates.  A near ideal armor plate combinding both excellent protection and low weight.  Another product of the mysterious Tarkov Foundery."
+			}
+		},
+		"fleaPriceRoubles": 100000,
+		"handbookPriceRoubles": 90000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 175,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_foundery_backpack_comtek": {
+		"itemTplToClone": "639346cc1c8f182ad90c8972",
+		"parentId": "5448e53e4bdc2d60728b4567",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "backpack_boss_birdeye_blk.bundle",
+				"rcid": ""
+			}
+		},
+		"locales": {
+			"en": {
+				"name": "Foundery Comtek Backpack",
+				"shortName": "Comtek BPack",
+				"description": "An advanced light weight communication suit, marked as Comtek, combined with a high capacity storage space makes quite the combination.  Allowing extensive and secure communication while also allowing a great deal of supplies and loot to be carried.  Another highly sought after Tarkov Foundery product."
+			}
+		},
+		"fleaPriceRoubles": 160000,
+		"handbookPriceRoubles": 120000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 850,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	},
+	"CJH_foundery_armored_headcover": {
+		"itemTplToClone": "5b432b2f5acfc4771e1c6622",
+		"parentId": "5a341c4686f77469e155819e",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "ghost_mask.bundle",
+				"rcid": ""
+			},
+			"BlocksEyewear": false,
+			"BlocksHeadwear": false,
+			"armorColliders":[
+				"HeadCommon",
+				"BackHead",
+				"ParietalHead",
+				"Eyes",
+				"Jaw",
+				"Ears"
+			],
+			"BackgroundColor": "yellow",
+			"armorClass": "4",
+			"RepairCost": 1200,
+			"ArmorMaterial": "UHMWPE",
+			"BluntThroughput": 0.119,
+			"Weight": 0.52,
+			"Durability": 55,
+			"MaxDurability": 55
+		},
+		"locales": {
+			"en": {
+				"name": "Foundery Armored Headcover",
+				"shortName": "Armored Headcover",
+				"description": "An advanced light weight head cover.  Granting a tough and durable final line of defense against any incoming rounds striking at ones head or neck.  A major lifesavor that is excessively rare.  Typical of a product of the mysterous Tarkov Foundery."
+			}
+		},
+		"fleaPriceRoubles": 75000,
+		"handbookPriceRoubles": 50000,
+		"addtoTraders": true,
+		"traderId": "PEACEKEEPER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 350,
+				"_tpl": "DOLLARS"
+			}
+		],
+		"loyallevelitems": 1
+	}
+}
