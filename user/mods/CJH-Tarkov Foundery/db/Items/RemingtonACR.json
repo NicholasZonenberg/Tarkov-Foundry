@@ -336,6 +336,7 @@
 				"rcid": ""
 			},
 			"buckshotBullets": 3,
+			"ProjectileCount": 3,
 			"Caliber": "Caliber86x70"
 		},
 		"locales": {
